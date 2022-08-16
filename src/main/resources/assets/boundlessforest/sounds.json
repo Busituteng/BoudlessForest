@@ -1,0 +1,11 @@
+{
+  "ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "boundlessforest:ambient",
+        "stream": false
+      }
+    ]
+  }
+}

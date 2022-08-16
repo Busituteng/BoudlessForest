@@ -1,0 +1,121 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Forestbat",
+    "mobLabel": "",
+    "mobModelTexture": "forestbat.png",
+    "mobModelName": "Biped",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 0.19999999999999998,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13395457,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:BF"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "CUSTOM:Torcherino"
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 5,
+    "movementSpeed": 0.19999999999999998,
+    "trackingRange": 16,
+    "health": 25,
+    "xpAmount": 7,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "Blocks.SAPLING#0"
+    },
+    "livingSound": {
+      "value": "entity.bat.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.bat.hurt"
+    },
+    "deathSound": {
+      "value": "entity.bat.death"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "onStruckByLightning": {
+      "name": "ForestbatItIsStruckByLightning"
+    },
+    "whenMobDies": {
+      "name": "ForestbatEntityDies"
+    },
+    "whenMobIsHurt": {
+      "name": "ForestbatEntityIsHurt"
+    },
+    "onRightClickedOn": {
+      "name": "ForestbatRightClickedOnEntity"
+    },
+    "hasAI": true,
+    "aiBase": "Enderman",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"-240\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">0.6</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">0.9</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"follow_entity\"><field name=\"speed\">0.8</field><field name=\"maxrange\">16</field><field name=\"followarea\">4</field><next><block type=\"watch_closest_entity\"><field name=\"radius\">8</field><field name=\"entity\">EntityPlayer</field><next><block type=\"doors_break\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 15,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BoundlessForest"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

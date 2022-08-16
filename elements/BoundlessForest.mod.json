@@ -1,0 +1,73 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Boundless Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "generateLakes": true,
+    "treeType": 0,
+    "vanillaTreeType": "Big trees",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5526185,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -7688167,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14321523,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 5,
+    "grassPerChunk": 7,
+    "flowersPerChunk": 2,
+    "mushroomsPerChunk": 1,
+    "bigMushroomsChunk": 1,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.19999999999999998,
+    "temperature": 0.39999999999999997,
+    "baseHeight": 0.2,
+    "heightVariation": 0.15,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "forest"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": [
+      {
+        "value": "EntityCreature"
+      },
+      {
+        "value": "CUSTOM:Forestbat"
+      }
+    ]
+  }
+}

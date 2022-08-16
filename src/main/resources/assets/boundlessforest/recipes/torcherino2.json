@@ -1,0 +1,13 @@
+{
+  "group": "boundlessforest",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boundlessforest:torcherino"
+    }
+  ],
+  "result": {
+    "item": "torcherino:blocktorcherino",
+    "count": 1
+  }
+}

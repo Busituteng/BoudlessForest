@@ -1,0 +1,6 @@
+{
+  "parent": "boundlessforest:custom/torcherino",
+  "textures": {
+    "0": "boundlessforest:blocks/texture"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "boundlessforest",
+    "name": "BoundlessForest",
+    "description": "Don't  you like to use a torcherino? I'll stick the torcherino in your ass to give you a good speed!",
+    "version": "1.1",
+    "credits": "BT,ForestBat,MCr",
+    "logoFile": "assets/boundlessforest/textures/cover.png",
+    "mcversion": "1.12.2",
+    "url": "https://center.mcmod.cn/276896/",
+    "updateUrl": "",
+    "authorList": [
+      "BunnimimiTotem"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

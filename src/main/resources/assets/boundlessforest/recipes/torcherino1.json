@@ -1,0 +1,30 @@
+{
+  "group": "boundlessforest",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:clock"
+    },
+    "3": {
+      "item": "minecraft:clock"
+    },
+    "4": {
+      "item": "minecraft:torch"
+    },
+    "5": {
+      "item": "minecraft:clock"
+    },
+    "7": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "item": "boundlessforest:torcherino",
+    "count": 1
+  }
+}

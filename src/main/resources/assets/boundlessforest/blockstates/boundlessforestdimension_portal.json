@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "boundlessforest:boundlessforestdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "boundlessforest:boundlessforestdimension_portal_ns"
+    },
+    "inventory": {
+      "model": "boundlessforest:boundlessforestdimension_portal_ns"
+    }
+  }
+}

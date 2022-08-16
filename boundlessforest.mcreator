@@ -1,0 +1,181 @@
+{
+  "id_map": {
+    "ENTITY": 2,
+    "DIMENSION": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Logo",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BF",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoundlessForest",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Torcherino",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Torcherino1",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Torcherino2",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Torcherino3",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ForestbatEntityIsHurt",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ForestbatEntityDies",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ForestbatItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ForestbatRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Forestbat",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "Boundlessforestdimension",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "Ignitor1",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ambient",
+      "file": "ambient",
+      "category": "ambient"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabbf": "Boundless Forest",
+      "item.torcherino.name": "Torcherino",
+      "entity.forestbat.name": "Forestbat",
+      "item.logo.name": "Logo",
+      "item.boundlessforestdimension.name": "Boundlessforestdimension Portal Igniter"
+    },
+    "zh_cn": {
+      "itemGroup.tabbf": "苍茫森林",
+      "item.torcherino.name": "加速火把",
+      "entity.forestbat.name": "森林蝙蝠",
+      "item.logo.name": "模组图标",
+      "item.boundlessforestdimension.name": "激活型加速火把"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "boundlessforest",
+    "modName": "BoundlessForest",
+    "version": "1.1",
+    "description": "Don\u0027t  you like to use a torcherino? I\u0027ll stick the torcherino in your ass to give you a good speed!",
+    "author": "BunnimimiTotem",
+    "websiteURL": "https://center.mcmod.cn/276896/",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "cover",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "BT,ForestBat,MCr",
+    "modElementsPackage": "net.mcreator.boundlessforest",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
